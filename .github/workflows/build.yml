@@ -2,10 +2,7 @@ name: Build KernelSU for Redmi Note 11 (spes)
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-
+  
 env:
   DEVICE: spes
   ARCH: arm64

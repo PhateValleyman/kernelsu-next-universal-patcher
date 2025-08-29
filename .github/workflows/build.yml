@@ -2,9 +2,6 @@ name: Build KernelSU for Redmi Note 11 (spes) with Docker
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 env:
   DEVICE: spes
